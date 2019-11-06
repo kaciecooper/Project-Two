@@ -95,6 +95,19 @@ a:hover { color: black; }
 
 a:visited { color: black; }
 
+.button {
+  background-color: #a68358;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+}
+
 
 .grid {
 	display: grid;
