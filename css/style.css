@@ -7,7 +7,6 @@ body {
 	 }
 
 
-
 nav li{ padding: 20px;
 		text-align:center;
 }
@@ -100,7 +99,7 @@ p{
 	font-size:16px;
 	font-family: proxima-nova, sans-serif;
     font-weight: 300;
-    
+
 }
 
 header {margin-bottom: 20px;}
@@ -201,7 +200,13 @@ div.caramel-dark{
 
 @media only screen and (min-width:768px) {
 	body{
-		background-color:skyblue;
+		background-color:  background: linear-gradient(
+    to right, 
+    #ffff 0%, 
+    #ffff 50%, 
+    #f3e9d2 50%, 
+    #f3e9d2 100%
+  );
 	}
 
 	.grid {
@@ -212,13 +217,25 @@ div.caramel-dark{
 
 @media only screen and (min-width:1024px) {
 	body{
-		background-color:salmon;
+	  background: linear-gradient(
+    to right, 
+    #ffff 0%, 
+    #ffff 50%, 
+    #f3e9d2 50%, 
+    #f3e9d2 100%
+  );
 	}
 }
 
 @media only screen and (min-width:1200px) {
 	body{
-		background-color:pink;
+		  background: linear-gradient(
+    to right, 
+    #ffff 0%, 
+    #ffff 50%, 
+    #f3e9d2 50%, 
+    #f3e9d2 100%
+  );
 	}
 }
 /*
