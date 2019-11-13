@@ -6,10 +6,14 @@ body {
 	background-color:#f3e9d2;
 	 }
 
-
+nav{
+	margin:auto;
+}
 nav li{ padding: 20px;
 		text-align:center;
 }
+
+
 
 .logo-link{
     min-width: 100px;
@@ -198,6 +202,8 @@ div.caramel-dark{
 	padding: 20px;
 }
 
+
+
 @media only screen and (min-width:768px) {
 	body{
 		background-color:  background: linear-gradient(
@@ -208,6 +214,7 @@ div.caramel-dark{
     #f3e9d2 100%
   );
 	}
+
 
 	.grid {
 		grid-template-columns: 1fr 1fr;
