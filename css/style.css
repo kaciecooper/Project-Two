@@ -8,21 +8,11 @@ body {
 
 
 
-/*
-font-family: proxima-nova, sans-serif;
-font-weight: 300;
+nav li{ padding: 20px;
+
+}
 
 
-font-style: italic;
-font-family: proxima-nova, sans-serif;
-font-weight: 900;
-font-style: normal;
-
-font-style: normal;
-font-family: proxima-nova, sans-serif;
-font-weight: 800;
-
-*/
 
 .flex{
 	align-items:center;
@@ -43,6 +33,8 @@ h2 {
     font-family: proxima-nova, sans-serif;
     font-weight: 800;
     color:#592b0f;
+    text-align:right;
+
 }
 
 
@@ -72,6 +64,17 @@ blockquote {
 	
 }
 
+.introtext {
+	padding:30px;
+	width:400px;
+	height:200px;
+	font-size:19px;
+	font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    align-content:center;
+
+}
+
 
 p{
 	font-size:16px;
@@ -91,9 +94,27 @@ a {
     font-weight: 300;
     font-size:16px;
 	 }
+
 a:hover { color: black; }
 
 a:visited { color: black; }
+
+main {
+	padding:30px;
+}
+
+h2 {
+	padding:20px;
+	text-align:right;
+}
+
+p .index{
+	padding:20px;
+}
+
+
+
+
 
 .button {
   background-color: #a68358;
