@@ -9,10 +9,12 @@ body {
 
 
 nav li{ padding: 20px;
-
+		text-align:center;
 }
 
-
+.logo-link{
+    min-width: 100px;
+}
 
 .flex{
 	align-items:center;
@@ -34,7 +36,25 @@ h2 {
     font-weight: 800;
     color:#592b0f;
     text-align:right;
+    display: flex;
+ 	align-items: center;
+  	justify-content: center;
 
+}
+
+h2 span {
+  margin: 0 15px;
+}
+
+h2:before {
+  background:#592b0f;
+  height: 1px;
+  flex: 1;
+  content: '';
+}
+
+h2.line-left:before {
+  background: none;
 }
 
 
@@ -56,10 +76,10 @@ h4 {
 
 blockquote {
 	margin: 20px 60px;
-	font-size: 20px;
+	font-size: 23px;
 	font-style: italic;
     font-family: proxima-nova, sans-serif;
-    font-weight: 900;
+    font-weight: 300;
     font-style: normal;
 	
 }
@@ -80,6 +100,7 @@ p{
 	font-size:16px;
 	font-family: proxima-nova, sans-serif;
     font-weight: 300;
+    
 }
 
 header {margin-bottom: 20px;}
@@ -103,18 +124,52 @@ main {
 	padding:30px;
 }
 
-h2 {
-	padding:20px;
-	text-align:right;
+
+
+
+/*
+.line-left{
+    margin:0;padding:0 10px;
+    display:inline-block;
 }
+h2{
+
+    text-align:center;
+    position:relative;
+    z-index:2;
+
+}
+h2:after{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    border-top:solid 2px #592b0f;
+    z-index:-1;
+}
+
+
+*/
 
 p .index{
-	padding:20px;
+	padding:10px;
 }
 
+div.pecanturtle{
+	padding:40px;
+}
 
+div.seafoam-dark{
+	padding:40px;
+}
+		
 
+div.caramel-dark{
+	padding:40px;
+}
 
+		
 
 .button {
   background-color: #a68358;
@@ -127,6 +182,7 @@ p .index{
   font-size: 16px;
   font-family: proxima-nova, sans-serif;
   font-weight: 300;
+  margin:auto;
 }
 
 
