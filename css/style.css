@@ -7,7 +7,7 @@ body {
 
 :root {
    --screen-width: 100%;
-   --screen-height: 500px;
+   --screen-height: 768px;
    --header-bg-color: #f3e9d2;
    --splash-bg-color: #f3e9d2;
 }
@@ -34,7 +34,7 @@ body {
    justify-content: center;
    height: var(--screen-height);
    position: relative;
-   z-index:100;
+   z-index: 5;
    visibility: hidden;
 }
  .nav__item {
