@@ -51,7 +51,7 @@ h2 {
 	 font-size: 36px;
 	 font-style: normal;
     font-family: proxima-nova, sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     color:#592b0f;
     text-align:right;
     display: flex;
@@ -64,14 +64,14 @@ h2 span {
   margin: 0 15px;
   }
 
-h2:before {
+.line-h2:before {
   background:#592b0f;
   height: 1px;
   flex: 1;
   content: '';
   }
 
-h2.line-left:before {
+.line-left:before {
   background: none;
   }
 
@@ -79,7 +79,7 @@ h2.line-left:before {
 h3 {
 	font-size:25px;
 	font-family: proxima-nova, sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   color:#a68358;
   text-align: center;
   }
@@ -94,11 +94,11 @@ h4 {
 
 blockquote {
 	margin: 20px 60px;
-	font-size: 23px;
-	font-style: italic;
+	font-size: 18px;
   font-family: proxima-nova, sans-serif;
   font-weight: 300;
   font-style: normal;
+  line-height:1.2em;
 	
   }
 
@@ -107,7 +107,7 @@ blockquote {
 p{
   line-height: 1.2em;
   margin-bottom:20px;
-	font-size:16px;
+	font-size:19px;
 	font-family: proxima-nova, sans-serif;
   font-weight: 300;
   }
@@ -146,15 +146,17 @@ div.caramel-dark{
    margin:auto;
       }
 
-.introtext {
+
+.intro-text {
   width:400px;
   height:200px;
-  font-size:19px;
-  font-family: proxima-nova, sans-serif;
-  font-weight: 300;
   align-content:center;
-  }
+  }      
 
+.about-section{
+  align-content:left;
+
+  }
 
 .button {
   background-color: #a68358;
@@ -209,6 +211,27 @@ div.caramel-dark{
   }
 
 
+.jenny-img{
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:30px;
+  padding:20px;
+  }
+
+
+.process-img{
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  padding:20px;
+
+  }
+
+
+
 .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -219,6 +242,7 @@ div.caramel-dark{
 
 .grid div {
   padding: 20px;
+  margin-bottom: 30px;
   }
 
 .favorite-grid{
@@ -227,52 +251,41 @@ div.caramel-dark{
 }
 
 .footer{
-  position: fixed;
-  bottom:0;
-  left:0;
-  right:0;
-}
+    color: #592b0f;
+    margin: 0px auto;
+    padding-bottom:30px;
+    width:100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+  }
 
 
-
+/*------------------------------------------*/
 
 @media only screen and (max-width:768px) {
 
   .topnav{
     visibility:hidden;
-
-  }
-
+    } 
 
   .hompage-img{
-  width: 90%;
+    width: 90%;
+    }
 
-  }
+  .pecanturtle-img{
+    width: 70%;
+    }  
 
- .pecanturtle-img{
-  width: 70%;
+  .caramel-dark-img{
+    width: 70%;
+    }
 
-  }  
-
-
-
-.caramel-dark-img{
-  width: 70%;
-
-  }
-
-
-
-.seafoam-dark-img{
-  width: 70%;
-
-  }  
-
+  .seafoam-dark-img{
+    width: 70%;
+    }  
 }
-
-
-
-
 
 
 @media only screen and (min-width:768px) {
@@ -282,20 +295,18 @@ div.caramel-dark{
     #ffff 0%, 
     #ffff 50%, 
     #f3e9d2 50%, 
-    #f3e9d2 100%
-  );
-	}
+    #f3e9d2 100%;)}
 
 
 	.grid {
 		grid-template-columns: 1fr 1fr;
 		width: 70%;
-	}
+	 }
 
-.favorite-grid{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
+  .favorite-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
 
 }
 
@@ -307,9 +318,8 @@ div.caramel-dark{
     #ffff 0%, 
     #ffff 50%, 
     #f3e9d2 50%, 
-    #f3e9d2 100%
-  );
-	}
+    #f3e9d2 100%);
+	  }
 
 
 }
