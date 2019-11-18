@@ -7,7 +7,114 @@ body {
 
 
 
+.nav, .desktop {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 900;
 }
+
+.icon {
+    position: fixed;
+    cursor: pointer;
+    top: 3%;
+    right: 0%;
+    width: 45px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    display: block;
+    z-index: 1000;
+}
+
+.hamburger {
+    width: 30px;
+    height: 4px;
+    line-height: 70px;
+    background: #592b0f;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .5s;
+}
+
+.hamburger:before,
+.hamburger:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: #592b0f;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.hamburger:before {
+    top: -10px;
+}
+
+.hamburger:after {
+    top: 10px;
+}
+
+.icon.active .hamburger {
+    background: rgba(0,0,0,0);
+  }
+
+.icon.active .hamburger:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.icon.active .hamburger:after {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+.menu-mobile {
+    background-color:rgba(166,131,88,.8);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 16px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+}
+
+.menu-mobile, .menu-mobile a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.menu-mobile a {
+    clear: right;
+    text-decoration: none;
+    color: #fff;
+    height: 70px;
+    line-height: 70px;
+    font-size: 19px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+
+}
+.menu-mobile a:hover {
+    color: #000;
+}
+.menu-mobile a:visited {
+    color: #fff;
+}
+
+.desktop, .menu-desktop, .menu-mobile {
+        display: none;
+    }
+/* END OF Mobile Menu */
+
 
 nav{
   margin:auto;
@@ -335,6 +442,9 @@ div.caramel-dark{
   .seafoam-dark-img{
     width: 70%;
     }  
+  .topnav{
+    display:none;
+  }
 
 }
 
@@ -362,7 +472,9 @@ div.caramel-dark{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     }
-
+.hamburger{
+  display:none;
+}
 
 }
 
@@ -375,8 +487,10 @@ div.caramel-dark{
     #ffff 50%, 
     #f3e9d2 50%, 
     #f3e9d2 100%);
-	  }
-
+    }
+.hamgburger{
+  display:none;
+}
 
 }
 
@@ -391,4 +505,8 @@ div.caramel-dark{
     #f3e9d2 100%
   );
 	}
+
+  .hamburger{
+    display:none;
+  }
 }
