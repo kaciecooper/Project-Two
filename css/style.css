@@ -129,7 +129,7 @@ a {
   text-decoration:none;
   font-family:proxima-nova, sans-serif;
   font-weight: 300;
-  font-size:16px;
+  font-size:19px;
    }
 
 a:hover {color: black;}
@@ -156,7 +156,7 @@ h1 {
   }
 
 h2 {
-	 font-size: 36px;
+	 font-size: 30px;
 	 font-style: normal;
     font-family: proxima-nova, sans-serif;
     font-weight: 600;
@@ -266,6 +266,7 @@ div.caramel-dark{
   width:400px;
   height:200px;
   align-content:center;
+  margin:auto;
   }      
 
 .market-section {
@@ -290,6 +291,7 @@ div.caramel-dark{
   font-family: proxima-nova, sans-serif;
   font-weight: 300;
   margin-top:10px;
+
   }
 
 
