@@ -13,37 +13,28 @@
 <body>
 
 
-<div class="container">
 
-    <input id="toggle" type="checkbox">
-
-    
-    <label class="toggle-container" for="toggle">
-     
-      <span class="mobile-button button-toggle"></span>
-    </label>
-
-    <!-- The Nav Menu -->
-    <nav class="mobile-nav">
-      <a class="mobile-nav-item" href="">Dashboard</a>
-      <a class="mobile-nav-item" href="">History</a>
-      <a class="mobile-nav-item" href="">Statistics</a>
-      <a class="mobile-nav-item" href="">Settings</a>
-    </nav>
-
-
-	<nav class="topnav">
-		<ul class="flex">
-			<li><a href="about.html">About</a></li>
-			<li><a href="shop.html">Shop</a></li>
-			<li><a href="index.html"><img src="images/cta_logo.png" class="logo-link" alt="candy apothecary logo"></a></li>
-			<li><a href="findus.html">Locate</a></li>
-			<li><a href="findus.html">Contact</a></li>
-		</ul>
-	</nav>
-
-
-
+    <header class="nav">
+        <div class="icon">
+            <div class="hamburger"></div>
+        </div>
+        <div class="menu-mobile">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="shop.html">Shop</a>
+            <a href="findus.html">Locate</a>
+            <a href="#">Contact</a>
+        </div>          
+    </header>
+    <header class="desktop">
+        <div class="menu-desktop">
+            <a href="about.html">About</a>
+            <a href="shop.hyml">Shop</a>
+ 			<a href="index.html"><img src="images/cta_logo.png" class="logo-link" alt="candy apothecary logo"></a>
+         	<a href="findus.html">Locate</a>
+            <a href="#">Contact</a>
+        </div>
+    </header>
 
 
 
@@ -100,6 +91,9 @@
 
 
 	<!-- link for jquery -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 	<script
   	src="https://code.jquery.com/jquery-3.4.1.min.js"
   	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
