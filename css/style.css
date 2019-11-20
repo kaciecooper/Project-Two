@@ -182,37 +182,35 @@ header {margin-bottom: 20px;}
 
 
 h1 {
-	font-size: 48px;
-  }
+  font-size: 35px;
+  font-style: normal;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  color:#592b0f;
+  margin-bottom:20px;
+}
 
 h2 {
-	 font-size: 30px;
-	 font-style: normal;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
     font-family: proxima-nova, sans-serif;
     font-weight: 900;
     color:#592b0f;
-    text-align:right;
     display: flex;
-  	align-items: center;
-  	justify-content: center;
+    justify-content: center;
     margin-bottom:20px;
-    }
+}
 
-h2 span {
-  margin: 0 15px;
-  }
+h2:before {
+    content: '';
+    margin:5px;
+    border-top: 1px solid;
+    flex: 1 0 20px;
+}
 
-
-.line-h2:before {
-  background:#592b0f;
-  height: 1px;
-  flex: 1;
-  content: '';
-  }
-
-.line-left:before {
-  background: none;
-  }
 
 
 h3 {
@@ -222,7 +220,6 @@ h3 {
   color:#a68358;
   text-align: center;
   }
-
 
 .locate-headers{
     margin-top:40px;
@@ -246,7 +243,7 @@ blockquote {
 
     max-width:390px;
     text-align: center; 
-    border-left: 2px solid #592b0f; 
+    border-right: 2px solid #592b0f; 
     padding-left: 5px;
     margin:0 auto;
     width:auto;
@@ -542,8 +539,30 @@ div.caramel-dark{
   font-size: 24px;
   width:550px;
   height:200px;
+}
+
+   h2{
+
+    width:inherit;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 900;
+    color:#592b0f;
+    display: flex;
+    justify-content: left;
+    margin-bottom:20px;
+}
+
+ h2:before {
+    flex: .1 0 20px;
 
   }
+
+
+}
 
 @media only screen and (min-width:1024px) {
 	body{
@@ -555,8 +574,18 @@ div.caramel-dark{
     #f3e9d2 100%);
     }
 .hamgburger{
-  display:none;
+  display:none;}
+
+
+.intro-header{
+  font-size: 35px;
 }
+
+
+.intro-text{
+  font-size:22px;
+}
+
 
 }
 
