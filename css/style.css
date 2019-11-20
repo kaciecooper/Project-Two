@@ -141,6 +141,36 @@ a:visited {color: black;}
 img { width: 100%; }
 
 
+.welcome-section{
+  display:grid;
+  grid-template-columns: 30% 70%;
+  padding:20px;
+
+}
+
+
+.about-section{
+  display:grid;
+  grid-template-columns: 30% 70%;
+  padding:20px;
+
+}
+
+.market-section{
+  display:grid;
+  grid-template-columns: 30% 70%;
+  padding:20px;
+
+}
+
+.shop-section{
+  display:grid;
+  grid-template-columns: 30% 70%;
+  padding:20px;
+
+}
+
+
 
 main {
   padding:30px;
@@ -159,7 +189,7 @@ h2 {
 	 font-size: 30px;
 	 font-style: normal;
     font-family: proxima-nova, sans-serif;
-    font-weight: 600;
+    font-weight: 900;
     color:#592b0f;
     text-align:right;
     display: flex;
@@ -171,6 +201,7 @@ h2 {
 h2 span {
   margin: 0 15px;
   }
+
 
 .line-h2:before {
   background:#592b0f;
@@ -185,35 +216,47 @@ h2 span {
 
 
 h3 {
-	font-size:25px;
+	font-size:20px;
 	font-family: proxima-nova, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   color:#a68358;
   text-align: center;
   }
 
 
 .locate-headers{
-    margin-bottom:30px;
+    margin-top:40px;
+    margin-bottom:10px;
+    font-weight:600;
+    font-style:italic;
+    font-size:30;
     text-align:left;
 
   }
 
 h4 {
-	font-size: 20px;
+	font-size: 18px;
 	font-style: italic;
   font-family: proxima-nova, sans-serif;
-  font-weight: 900;
-  font-style: normal;
+  font-weight: 600;
+  font-style: italic;
   }
 
 blockquote {
-	margin: 40px 60px;
-	font-size: 18px;
-  font-family: proxima-nova, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  line-height:1.2em;
+
+    max-width:390px;
+    text-align: center; 
+    border-left: 2px solid #592b0f; 
+    padding-left: 5px;
+    margin:0 auto;
+    width:auto;
+    display:table;
+    font-size: 19px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style:italic;
+    line-height:1.2em;
+    color:#592b0f;
 
   }
 
@@ -262,21 +305,15 @@ div.caramel-dark{
       }
 
 
-.intro-text {
+.intro-copy {
   width:400px;
   height:200px;
   align-content:center;
   margin:auto;
   }      
 
-.market-section {
-  width:400px;
-  text-align:left;
-  margin-bottom:80px;
-  }  
+.about-copy{
 
-.about-section{
-  align-content:left;
   }
 
 .button {
@@ -447,7 +484,28 @@ div.caramel-dark{
     }  
   .topnav{
     display:none;
-  }
+   }
+
+  .welcome-section{
+    display:grid;
+    grid-template-columns: 1fr;
+    }
+
+
+  .about-section{
+    display:grid;
+    grid-template-columns: 1fr;
+    }
+
+  .market-section{
+    display:grid;
+    grid-template-columns: 1fr;
+    } 
+
+  .shop-section{
+    display:grid;
+    grid-template-columns: 1fr;
+    }  
 
 }
 
@@ -475,12 +533,17 @@ div.caramel-dark{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     }
-.hamburger{
+  .hamburger{
   display:none;
-}
+  }
 
-}
 
+  blockquote {
+  font-size: 24px;
+  width:550px;
+  height:200px;
+
+  }
 
 @media only screen and (min-width:1024px) {
 	body{
