@@ -350,13 +350,29 @@ div.caramel-dark{
 
 
 .hompage-img{
-  width: 70%;
+  width:80%;
   display: block;
   margin-left: auto;
   margin-right:40px;
   padding:10px;
   }
 
+/*
+.hompage-img-2{
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right:40px;
+  padding:10px;
+  }
+
+.hompage-img-3{
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right:40px;
+  padding:10px;
+  }*/
 
 .pecanturtle-img{
   width: 60%;
@@ -482,6 +498,7 @@ body {
 }
 
 
+
 /*------------------------------------------*/
 
 @media only screen and (max-width:768px) {
@@ -490,6 +507,13 @@ body {
     width: 90%%;
     }
 
+ .hompage-img-2{
+    width: 90%%;
+    }
+
+ .hompage-img-3{
+    width: 90%%;
+    }
   .pecanturtle-img{
     width: 70%;
     }  

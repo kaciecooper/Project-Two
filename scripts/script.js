@@ -39,15 +39,6 @@ $(desktopMenu);
 
 
 
-    $('.slideshow').square1({
-        transition_time: 500,
-        auto_start: true, 
-        start_delay:0,
-
-     
-
-
-
 
 
 // End of Your Code . Don't delete that line below!!
