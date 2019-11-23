@@ -39,6 +39,13 @@ $(desktopMenu);
 
 
 
+    $('.slideshow').square1({
+        transition_time: 500,
+        auto_start: true, 
+        start_delay:0,
+
+     
+
 
 
 
