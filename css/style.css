@@ -216,7 +216,6 @@ h2:before {
 
 
 
-
 h3 {
 	font-size:20px;
 	font-family: proxima-nova, sans-serif;
@@ -243,22 +242,6 @@ h4 {
   font-style: italic;
   }
 
-
-h5 { 
-  font-size: 40px;
-  font-style: normal;
-  font-family: proxima-nova, sans-serif;
-  font-weight: 800;
-  color:#592b0f;
-  margin-bottom:20px;
-  display: flex;
-  justify-content: center;
-  width:100%;
-  position: absolute;
-  top: 300px;
-}
-
-}
 blockquote {
 
     max-width:390px;
@@ -495,6 +478,7 @@ body {
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
+    object-fit: contain;
 }
 
 
@@ -541,9 +525,6 @@ body {
     display:grid;
     grid-template-columns: 1fr;
     }  
-h5{
-  font-size:30px;
-}
 
 }
 
@@ -628,7 +609,6 @@ h5{
 }
 
 
-
 }
 
 
@@ -645,6 +625,5 @@ h5{
 
   .hamburger{
     display:none;
-
   }
 }
