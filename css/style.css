@@ -1,11 +1,7 @@
-/* Enter your Styles below! */
 
-
-body { 
+/*body { 
 	 background-color:#f3e9d2;
-	 }
-
-
+	 }*/
 
 .nav, .desktop {
     display: block;
@@ -113,8 +109,6 @@ body {
 .desktop, .menu-desktop, .menu-mobile {
         display: none;
     }
-/* END OF Mobile Menu */
-
 
 nav{
   margin:auto;
@@ -137,7 +131,7 @@ a:hover {color: black;}
 a:visited {color: black;}
 
 
-/* ensures that your images stretch the width of their containers */
+
 img { width: 100%; }
 
 
@@ -199,7 +193,7 @@ h2 {
     font-size: 30px;
     font-style: normal;
     font-family: proxima-nova, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     color:#592b0f;
     display: flex;
     justify-content: center;
@@ -252,7 +246,7 @@ h4 {
   }
 
 
-  h5 {
+h5 {
     width: 100%;
     align-items: center;
     text-align: center;
@@ -264,24 +258,8 @@ h4 {
     display: flex;
     justify-content: center;
     margin-top:250px;
-}
+  }
 
-
-h5 { 
-  font-size: 40px;
-  font-style: normal;
-  font-family: proxima-nova, sans-serif;
-  font-weight: 800;
-  color:#592b0f;
-  margin-bottom:20px;
-  display: flex;
-  justify-content: center;
-  width:100%;
-  position: absolute;
-  top: 300px;
-}
-
-}
 
 blockquote {
 
@@ -328,6 +306,13 @@ div.caramel-dark{
 
 
 
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      }
+
+
 .main{
   padding:20px;
   }
@@ -338,12 +323,6 @@ div.caramel-dark{
    width: 200px;
     }
 
-
-.flex{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-      }
 
 
 .intro-text {
@@ -377,7 +356,6 @@ div.caramel-dark{
   margin-top:10px;
 
   }
-
 
 .locate-button {
   background-color: #a68358;
@@ -480,7 +458,6 @@ div.caramel-dark{
   }
 
 
-
 .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -533,9 +510,12 @@ div.caramel-dark{
 
 /*------------------------------------------*/
 
+
+
 @media only screen and (max-width:768px) {
- body{
-    background-color:#f3e9d2;
+ body{background-color:pink;}
+/*
+background-color:#f3e9d2;
   }
 
  .hompage-img-2{
@@ -590,10 +570,13 @@ h5{
 
 
 }
-
+*/
 
 @media only screen and (min-width:768px) {
-	body{
+ body{background-color:red;}
+
+
+/*	body{
 
     background-color:#000;
 
@@ -614,11 +597,11 @@ h5{
 		width: 70%;
 	 }
 
-  .favorite-grid{
+ /* .favorite-grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    }
-.hamburger{
+    }*/
+/*.hamburger{
   display:none;
 
   }
@@ -647,10 +630,14 @@ h5{
  h2:before {
     flex: .1 0 20px;
 }
+*/
+
 
 @media only screen and (min-width:1024px) {
-	body{
-	  background: linear-gradient(
+ body{background-color:green;}
+
+  /*body{
+	  backgound: linear-gradient(
     to right, 
     #ffff 0%, 
     #ffff 50%, 
@@ -670,13 +657,19 @@ h5{
   font-size:22px;
 }
 
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
 
-
+*/
 }
 
-
 @media only screen and (min-width:1200px) {
-	body{
+ body{background-color:blue;}
+
+
+/*	body{
 		  background: linear-gradient(
     to right, 
     #ffff 0%, 
@@ -688,4 +681,10 @@ h5{
     display:none;
 
   }
+  .grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
 }
+
+*/
