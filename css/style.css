@@ -388,7 +388,11 @@ div.caramel-dark{
 
 .hompage-img{
 <<<<<<< HEAD
+<<<<<<< HEAD
   width:80%;
+=======
+  width: 100%;
+>>>>>>> parent of 6b81602... Update style.css
 =======
   width: 100%;
 >>>>>>> parent of 6b81602... Update style.css
@@ -532,10 +536,13 @@ div.caramel-dark{
   }
   .hompage-img{
     width: 100%%;
+<<<<<<< HEAD
     }
 
  .hompage-img-2{
     width: 90%%;
+=======
+>>>>>>> parent of 6b81602... Update style.css
     }
 
  .hompage-img-3{
