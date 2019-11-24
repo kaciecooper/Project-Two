@@ -141,9 +141,6 @@ a:visited {color: black;}
 img { width: 100%; }
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 .welcome-section{
   display:grid;
   grid-template-columns: 30% 70%;
@@ -176,19 +173,9 @@ img { width: 100%; }
 }
 
 
-=======
->>>>>>> parent of 66a6f72... pages are fully layed out
 
 main{
-  padding:0px;
-  }
-=======
->>>>>>> parent of 66a6f72... pages are fully layed out
-=======
->>>>>>> parent of 66a6f72... pages are fully layed out
-
-main .homepage-img {
-  padding:0px;
+  padding:30px;
   }
 
 
@@ -219,9 +206,7 @@ h2 {
     margin-bottom:20px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 h2:before {
     content: '';
     margin:5px;
@@ -229,45 +214,44 @@ h2:before {
     flex: 1 0 20px;
 }
 
-=======
-=======
->>>>>>> parent of 66a6f72... pages are fully layed out
-=======
->>>>>>> parent of 66a6f72... pages are fully layed out
+/*
 .line-h2:before {
   background:#592b0f;
   height: 1px;
   flex: 1;
   content: '';
   }
->>>>>>> parent of 66a6f72... pages are fully layed out
+*/
 
 
 
 h3 {
 	font-size:25px;
 	font-family: proxima-nova, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   color:#a68358;
   text-align: center;
   }
 
 .locate-headers{
-    margin-bottom:30px;
+    margin-top:40px;
+    margin-bottom:10px;
+    font-weight:600;
+    font-style:italic;
+    font-size:30;
     text-align:left;
 
   }
 
 h4 {
-	font-size: 20px;
-	font-style: italic;
+	font-size: 18px;
+  font-style: italic;
   font-family: proxima-nova, sans-serif;
-  font-weight: 900;
-  font-style: normal;
+  font-weight: 600;
+  font-style: italic;
   }
 
 
-<<<<<<< HEAD
   h5 {
     width: 100%;
     align-items: center;
@@ -282,7 +266,7 @@ h4 {
     margin-top:250px;
 }
 
-=======
+
 h5 { 
   font-size: 40px;
   font-style: normal;
@@ -298,11 +282,8 @@ h5 {
 }
 
 }
->>>>>>> parent of 92236d5... Revert "linked 4040"
+
 blockquote {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
     max-width:390px;
     text-align: center; 
@@ -317,24 +298,6 @@ blockquote {
     font-style:italic;
     line-height:1.2em;
     color:#592b0f;
-=======
-=======
->>>>>>> parent of 66a6f72... pages are fully layed out
-=======
->>>>>>> parent of 66a6f72... pages are fully layed out
-	margin: 40px 60px;
-	font-size: 18px;
-  font-family: proxima-nova, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  line-height:1.2em;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 66a6f72... pages are fully layed out
-=======
->>>>>>> parent of 66a6f72... pages are fully layed out
-=======
->>>>>>> parent of 66a6f72... pages are fully layed out
 
   }
 
@@ -434,15 +397,8 @@ div.caramel-dark{
 
 
 .hompage-img{
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   width:80%;
-=======
-  width: 100%;
->>>>>>> parent of 6b81602... Update style.css
-=======
-  width: 100%;
->>>>>>> parent of 6b81602... Update style.css
   display: block;
   margin-left: auto;
   margin-right:40px;
@@ -581,15 +537,9 @@ div.caramel-dark{
  body{
     background-color:#f3e9d2;
   }
-  .hompage-img{
-    width: 100%%;
-<<<<<<< HEAD
-    }
 
  .hompage-img-2{
     width: 90%%;
-=======
->>>>>>> parent of 6b81602... Update style.css
     }
 
  .hompage-img-3{
@@ -608,10 +558,7 @@ div.caramel-dark{
     }  
   .topnav{
     display:none;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-   }
+    }
 
   .welcome-section{
     display:grid;
@@ -634,7 +581,7 @@ div.caramel-dark{
     grid-template-columns: 1fr;
     }  
 h5{
-  font-size:30px;
+  font-size:25px;
 }
 
   h5 {
