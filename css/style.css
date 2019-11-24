@@ -143,6 +143,7 @@ img { width: 100%; }
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .welcome-section{
   display:grid;
   grid-template-columns: 30% 70%;
@@ -183,6 +184,8 @@ main{
   }
 =======
 >>>>>>> parent of 66a6f72... pages are fully layed out
+=======
+>>>>>>> parent of 66a6f72... pages are fully layed out
 
 main .homepage-img {
   padding:0px;
@@ -218,6 +221,7 @@ h2 {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 h2:before {
     content: '';
     margin:5px;
@@ -226,6 +230,8 @@ h2:before {
 }
 
 =======
+=======
+>>>>>>> parent of 66a6f72... pages are fully layed out
 =======
 >>>>>>> parent of 66a6f72... pages are fully layed out
 .line-h2:before {
@@ -296,6 +302,7 @@ h5 {
 blockquote {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     max-width:390px;
     text-align: center; 
@@ -313,6 +320,8 @@ blockquote {
 =======
 =======
 >>>>>>> parent of 66a6f72... pages are fully layed out
+=======
+>>>>>>> parent of 66a6f72... pages are fully layed out
 	margin: 40px 60px;
 	font-size: 18px;
   font-family: proxima-nova, sans-serif;
@@ -320,6 +329,9 @@ blockquote {
   font-style: normal;
   line-height:1.2em;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 66a6f72... pages are fully layed out
+=======
 >>>>>>> parent of 66a6f72... pages are fully layed out
 =======
 >>>>>>> parent of 66a6f72... pages are fully layed out
@@ -598,6 +610,7 @@ div.caramel-dark{
     display:none;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    }
 
   .welcome-section{
@@ -627,6 +640,9 @@ h5{
   h5 {
   
     font-size: 25px;
+=======
+  }
+>>>>>>> parent of 66a6f72... pages are fully layed out
 =======
   }
 >>>>>>> parent of 66a6f72... pages are fully layed out
@@ -667,6 +683,7 @@ h5{
   display:none;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 
   blockquote {
@@ -701,6 +718,12 @@ h5{
 
 
 }
+=======
+}
+
+}
+
+>>>>>>> parent of 66a6f72... pages are fully layed out
 =======
 }
 
