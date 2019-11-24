@@ -502,11 +502,9 @@ body {
 /*------------------------------------------*/
 
 @media only screen and (max-width:768px) {
-
-  background-color:#000;
- /* body{
+ body{
     background-color:#f3e9d2;
-  }*/
+  }
   .hompage-img{
     width: 90%%;
     }
@@ -566,12 +564,12 @@ body {
 
     background-color:#000;
 
-		/*background-color:  background: linear-gradient(
+		background-color:  background: linear-gradient(
     to right, 
     #ffff 0%, 
     #ffff 50%, 
     #f3e9d2 50%, 
-    #f3e9d2 100%;)*/
+    #f3e9d2 100%;)
 
   }
 
