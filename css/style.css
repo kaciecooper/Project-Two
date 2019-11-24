@@ -478,7 +478,7 @@ div.caramel-dark{
     font-weight: 300;
   }
 
-body {
+.not-found body {
   margin: 0;
   padding: 0;
   background: url() #fff;
