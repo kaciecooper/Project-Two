@@ -214,14 +214,14 @@ h2:before {
     flex: 1 0 20px;
 }
 
-/*
+
 .line-h2:before {
   background:#592b0f;
   height: 1px;
   flex: 1;
   content: '';
   }
-*/
+
 
 
 
@@ -587,15 +587,7 @@ h5{
   h5 {
   
     font-size: 25px;
-=======
-  }
->>>>>>> parent of 66a6f72... pages are fully layed out
-=======
-  }
->>>>>>> parent of 66a6f72... pages are fully layed out
-=======
-  }
->>>>>>> parent of 66a6f72... pages are fully layed out
+
 
 }
 
@@ -628,9 +620,7 @@ h5{
     }
 .hamburger{
   display:none;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   }
 
   blockquote {
@@ -656,27 +646,7 @@ h5{
 
  h2:before {
     flex: .1 0 20px;
-=======
 }
-
-}
->>>>>>> parent of 66a6f72... pages are fully layed out
-
-
-
-}
-=======
-}
-
-}
-
->>>>>>> parent of 66a6f72... pages are fully layed out
-=======
-}
-
-}
-
->>>>>>> parent of 66a6f72... pages are fully layed out
 
 @media only screen and (min-width:1024px) {
 	body{
