@@ -212,21 +212,6 @@ a:visited {color: black;}
 
 }
 
-.market-section{
-  display:grid;
-  grid-template-columns: 30% 70%;
-  padding:20px;
-
-}
-
-.shop-section{
-  display:grid;
-  grid-template-columns: 30% 70%;
-
-
-}
-
-
 
 
 /*TYPE------------------------------*/
@@ -366,7 +351,6 @@ div.caramel-dark{
 
 
 .market-section {
-  width:400px;
   text-align:left;
   margin-bottom:80px;
   }  
@@ -513,21 +497,6 @@ div.caramel-dark{
   padding:20px;
 
   }
-
-
-
-.market-img{
-  width: 60%;
-  display: block;
-  margin-top:50px;
-  margin-left: auto;
-  margin-right:auto;
-  padding:20px;
-
-  }
-
-
-
 
 
 /*FOOTER------------------------------*/
@@ -684,6 +653,25 @@ div.caramel-dark{
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom:50px;
     }
+
+
+.market-section{
+      display:grid;
+      grid-template-columns:40% 60%;
+      padding:20px;
+      }
+
+.shop-section{
+      display:grid;
+      grid-template-columns:40% 60%;
+      padding:20px;
+      }
+
+
+
+
+
+
 
 
 @media only screen and (min-width:1024px) {
