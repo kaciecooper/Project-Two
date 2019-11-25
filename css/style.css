@@ -204,12 +204,9 @@ a:visited {color: black;}
 
 }
 
-
-.about-section{
+.notfound-section{
   display:grid;
-  grid-template-columns: 30% 70%;
-  padding:20px;
-
+  grid-template-columns: 1fr;
 }
 
 
@@ -285,7 +282,7 @@ h5 {
     color:#592b0f;
     display: flex;
     justify-content: center;
-    margin-top:250px;
+    margin-top:10px;
   }
 
 
@@ -356,7 +353,8 @@ div.caramel-dark{
   }  
 
 .about-section{
-  align-content:left;
+  margin-top:50px;
+  margin:auto;
   }
 
 
@@ -480,23 +478,29 @@ div.caramel-dark{
 
 
 .jenny-img{
-  width: 60%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom:30px;
-  padding:20px;
-  }
+   }
 
 
 .process-img{
-  width: 60%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right:auto;
-  padding:20px;
-
   }
+.notfound-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 200px;
+  margin-top:100px;
+
+}
 
 
 /*FOOTER------------------------------*/
@@ -554,10 +558,6 @@ div.caramel-dark{
       display:grid;
       grid-template-columns: 1fr;
       }
-    .about-section{
-         display:grid;
-         grid-template-columns: 1fr;
-        }
 
     .market-section{
       display:grid;
@@ -654,18 +654,39 @@ div.caramel-dark{
     padding-bottom:50px;
     }
 
+.about-section{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      }
 
 .market-section{
       display:grid;
-      grid-template-columns:40% 60%;
-      padding:20px;
+      grid-template-columns:1fr 1fr;
       }
 
 .shop-section{
       display:grid;
-      grid-template-columns:40% 60%;
-      padding:20px;
+      grid-template-columns:1fr 1fr;
       }
+
+.about-text {
+  width:400px;
+  height:200px;
+  align-content:center;
+  margin:auto;
+  }
+
+.market-text {
+  width:400px;
+  align-content:center;
+  margin:auto;
+  }
+
+.shop-text {
+  width:400px;
+  align-content:center;
+  margin:auto;
+  }
 
 
 
