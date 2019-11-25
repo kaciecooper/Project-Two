@@ -251,9 +251,7 @@ h2 {
     display: flex;
     justify-content: center;
     margin-bottom:20px;
-}
-
-
+  }
 h2:before {
     content: '';
     margin:5px;
@@ -605,8 +603,6 @@ div.caramel-dark{
       width:90%;}
 
 
- 
-
 
   
 }
@@ -635,9 +631,9 @@ div.caramel-dark{
       margin-top:-40px;
     }
 
-    .overlay {
-     width: 100%;}
-
+    .shop-grid{
+     width: 80%;
+     }
 
 
   blockquote {
@@ -651,7 +647,9 @@ div.caramel-dark{
   }
 
 
-}
+  h2 {
+    width: 35%;
+  }
 
 @media only screen and (min-width:1024px) {
 
